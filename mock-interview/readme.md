@@ -48,7 +48,13 @@ React:
 
 React Native:
 1. What is the difference between React and React Native?
-2. How can engines be integrated with React Native?
-3. How do you take into account the difference in screen sizes of mobile phones?
-
+   a) RN is a framework for IOS & Android devices while React is a JS library.
+   b) RN does not manipulate the DOM while React does.
+   c) RN runs a process that communicates with Native devices via an async bridge.
+   
+3. How can engines be integrated with React Native?
+  a) Through expo install expo-sensors.
+  
+5. How do you take into account the difference in screen sizes of mobile phones?
+  a) By using Dimensions API from RN and useWindowDimensions hook.
 
